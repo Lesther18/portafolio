@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link href="estilochat.css" rel="stylesheet">
+</head>
+<body>
+    <div class="texto">
+        <h1>Chat con Firebase</h1>
+        <h2>Bienvenido</h2>
+        <p>Estas conectado como:</p>
+        <img class="img" src="https://apps2.umg.edu.gt/img/logo3.png">
+    </div>
+        <p id="usuarioConectado"><b>No conectado</b></p>
+        <button id="botonIniciar">Iniciar Sesión</button>
+        <br>
+        <button id="botonCerrar" style="display:none"><stronger>Cerrar Sesión</stronger></button>
+
+      <br>
+    <div disabled id="mensajesChat" placeholder="Acá deben aparecer los mensajes"></div>
+    <input type="text" id="textoMensaje" placeholder="Escribe tu comentario y presiona Enter">
+    <script src="funcioneschat.js" type="module"></script>
+</body>
+</html>
